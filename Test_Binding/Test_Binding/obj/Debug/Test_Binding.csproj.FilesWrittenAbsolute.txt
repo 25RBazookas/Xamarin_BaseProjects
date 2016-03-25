@@ -1,0 +1,9 @@
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/obj/Debug/Test_Binding.Jars.glide-3.6.1-javadoc.jar
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/bin/Debug/Test_Binding.dll.mdb
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/bin/Debug/Test_Binding.dll
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/obj/Debug/Test_Binding.dll
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/obj/Debug/Test_Binding.dll.mdb
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/obj/Debug/Test_Binding.Jars.glide-3.6.1.jar
+/Users/robinbruneel/Projects/Test_Binding/Test_Binding/bin/Debug/Xamarin.Android.Support.v4.dll
