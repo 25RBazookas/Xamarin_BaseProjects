@@ -1717,8 +1717,8 @@ namespace Test_ImageLoading
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c006d
-			public const int action0 = 2131492973;
+			// aapt resource value: 0x7f0c006e
+			public const int action0 = 2131492974;
 			
 			// aapt resource value: 0x7f0c0058
 			public const int action_bar = 2131492952;
@@ -1744,8 +1744,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0059
 			public const int action_context_bar = 2131492953;
 			
-			// aapt resource value: 0x7f0c0071
-			public const int action_divider = 2131492977;
+			// aapt resource value: 0x7f0c0072
+			public const int action_divider = 2131492978;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_menu_divider = 2131492866;
@@ -1795,8 +1795,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0042
 			public const int buttonPanel = 2131492930;
 			
-			// aapt resource value: 0x7f0c006e
-			public const int cancel_action = 2131492974;
+			// aapt resource value: 0x7f0c006f
+			public const int cancel_action = 2131492975;
 			
 			// aapt resource value: 0x7f0c002c
 			public const int center = 2131492908;
@@ -1816,8 +1816,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0068
 			public const int choice_text = 2131492968;
 			
-			// aapt resource value: 0x7f0c0074
-			public const int chronometer = 2131492980;
+			// aapt resource value: 0x7f0c0075
+			public const int chronometer = 2131492981;
 			
 			// aapt resource value: 0x7f0c002f
 			public const int clip_horizontal = 2131492911;
@@ -1852,8 +1852,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c001f
 			public const int end = 2131492895;
 			
-			// aapt resource value: 0x7f0c0079
-			public const int end_padder = 2131492985;
+			// aapt resource value: 0x7f0c007a
+			public const int end_padder = 2131492986;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int expand_activities_button = 2131492924;
@@ -1894,8 +1894,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c003d
 			public const int image = 2131492925;
 			
-			// aapt resource value: 0x7f0c0078
-			public const int info = 2131492984;
+			// aapt resource value: 0x7f0c0079
+			public const int info = 2131492985;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int item_touch_helper_previous_elevation = 2131492873;
@@ -1903,11 +1903,11 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0034
 			public const int left = 2131492916;
 			
-			// aapt resource value: 0x7f0c0072
-			public const int line1 = 2131492978;
+			// aapt resource value: 0x7f0c0073
+			public const int line1 = 2131492979;
 			
-			// aapt resource value: 0x7f0c0076
-			public const int line3 = 2131492982;
+			// aapt resource value: 0x7f0c0077
+			public const int line3 = 2131492983;
 			
 			// aapt resource value: 0x7f0c0011
 			public const int listMode = 2131492881;
@@ -1915,8 +1915,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c003f
 			public const int list_item = 2131492927;
 			
-			// aapt resource value: 0x7f0c0070
-			public const int media_actions = 2131492976;
+			// aapt resource value: 0x7f0c0071
+			public const int media_actions = 2131492977;
 			
 			// aapt resource value: 0x7f0c0020
 			public const int middle = 2131492896;
@@ -2029,8 +2029,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0036
 			public const int start = 2131492918;
 			
-			// aapt resource value: 0x7f0c006f
-			public const int status_bar_latest_event_content = 2131492975;
+			// aapt resource value: 0x7f0c0070
+			public const int status_bar_latest_event_content = 2131492976;
 			
 			// aapt resource value: 0x7f0c0063
 			public const int submit_area = 2131492963;
@@ -2041,17 +2041,17 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c000e
 			public const int terrain = 2131492878;
 			
-			// aapt resource value: 0x7f0c0077
-			public const int text = 2131492983;
+			// aapt resource value: 0x7f0c0078
+			public const int text = 2131492984;
 			
-			// aapt resource value: 0x7f0c0075
-			public const int text2 = 2131492981;
+			// aapt resource value: 0x7f0c0076
+			public const int text2 = 2131492982;
 			
 			// aapt resource value: 0x7f0c004b
 			public const int textSpacerNoButtons = 2131492939;
 			
-			// aapt resource value: 0x7f0c0073
-			public const int time = 2131492979;
+			// aapt resource value: 0x7f0c0074
+			public const int time = 2131492980;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int title = 2131492929;
@@ -2073,6 +2073,9 @@ namespace Test_ImageLoading
 			
 			// aapt resource value: 0x7f0c0028
 			public const int vertical = 2131492904;
+			
+			// aapt resource value: 0x7f0c006d
+			public const int view_theaterDetail_hall = 2131492973;
 			
 			// aapt resource value: 0x7f0c006c
 			public const int view_theaterDetail_location = 2131492972;

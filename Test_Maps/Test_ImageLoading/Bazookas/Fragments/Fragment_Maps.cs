@@ -39,6 +39,12 @@ namespace Bazookas.Fragments
 			set;
 		}
 
+		[InjectView (Resource.Id.view_theaterDetail_hall)] 
+		public LinearLayout TheaterDetailHallInformationContainer {
+			get;
+			set;
+		}
+
 		#endregion
 
 		#region constructor
@@ -73,10 +79,23 @@ namespace Bazookas.Fragments
 
 		public override View OnCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 		{
-			// Use this to return your custom view for this Fragment
-			// return inflater.Inflate(Resource.Layout.YourFragment, container, false);
+			View view = inflater.Inflate (Resource.Layout.Fragment_Maps, container, false);
+				
+			#region INJECTION
+			Cheeseknife.Inject (this, view);
+			#endregion
 
-			return base.OnCreateView (inflater, container, savedInstanceState);
+
+			setUpGoogleMap();
+
+			return view;
+		}
+
+		public override void OnDestroyView ()
+		{
+			base.OnDestroyView ();
+
+			Cheeseknife.Reset (this);
 		}
 
 		#endregion

@@ -9,5 +9,10 @@
         android:id="@+id/view_theaterDetail_location"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="200dp" />
+    <LinearLayout
+        android:id="@+id/view_theaterDetail_hall"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
 </RelativeLayout>
