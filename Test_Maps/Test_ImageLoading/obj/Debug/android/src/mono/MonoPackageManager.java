@@ -90,6 +90,10 @@ class MonoPackageManager_Resources {
 		"Square.Picasso.dll",
 		"Xamarin.Android.Support.v7.CardView.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
+		"Xamarin.GooglePlayServices.Location.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{

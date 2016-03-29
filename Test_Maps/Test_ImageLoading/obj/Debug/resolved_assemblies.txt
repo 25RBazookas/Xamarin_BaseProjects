@@ -12,6 +12,10 @@
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/Square.Picasso.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/Xamarin.Android.Support.v7.CardView.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Basement.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Base.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Maps.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Location.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/System.Core.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/mscorlib.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/assemblies/System.Runtime.Serialization.dll

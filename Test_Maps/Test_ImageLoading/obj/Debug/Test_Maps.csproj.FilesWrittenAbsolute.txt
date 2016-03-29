@@ -31,3 +31,8 @@
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/R.cs.flag
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/bin/Debug/be.bazookas.test_imageloading-Signed.apk
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/uploadflags.txt
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/obj/Debug/res/layout/fragment_maps.xml
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Basement.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Base.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Maps.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_Maps/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Location.dll
