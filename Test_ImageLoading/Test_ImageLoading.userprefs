@@ -2,33 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Test_ImageLoading/Bazookas/RecyclerViewCells/Cell_Choice.cs">
     <Files>
-      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_Dialog.cs" Line="73" Column="30" />
-      <File FileName="Test_ImageLoading/Bazookas/RecyclerViewCells/Cell_Choice.cs" Line="36" Column="3" />
+      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_Dialog.cs" Line="1" Column="1" />
+      <File FileName="Test_ImageLoading/Bazookas/RecyclerViewCells/Cell_Choice.cs" Line="33" Column="8" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Test_ImageLoading" expanded="True">
-            <Node name="Test_ImageLoading" expanded="True">
-              <Node name="Packages" expanded="True" />
-              <Node name="Bazookas" expanded="True">
-                <Node name="Activities" expanded="True" />
-                <Node name="Fragments" expanded="True" />
-                <Node name="RecyclerViewCells" expanded="True">
-                  <Node name="RecyclerViewCell_Image_Picasso.cs" selected="True" />
-                </Node>
-                <Node name="RecyclerViewHolder" expanded="True" />
-                <Node name="VO" expanded="True" />
-              </Node>
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-                <Node name="values" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
