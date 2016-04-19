@@ -80,16 +80,18 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Test_ImageLoading.dll",
-		"Xamarin.Insights.dll",
+		"Cheeseknife.dll",
+		"Square.Picasso.dll",
+		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
+		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.GridLayout.dll",
-		"Xamarin.Android.Support.v7.RecyclerView.dll",
-		"Cheeseknife.dll",
+		"Xamarin.Android.Support.v7.CardView.dll",
+		"Xamarin.Insights.dll",
 		"Square.OkIO.dll",
 		"Square.OkHttp.dll",
-		"Square.Picasso.dll",
-		"Xamarin.Android.Support.v7.CardView.dll",
-		"Xamarin.Android.Support.v7.AppCompat.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{

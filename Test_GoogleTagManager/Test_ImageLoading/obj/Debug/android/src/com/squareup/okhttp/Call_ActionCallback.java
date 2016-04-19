@@ -13,7 +13,7 @@ public class Call_ActionCallback
 			"n_onFailure:(Lcom/squareup/okhttp/Request;Ljava/io/IOException;)V:GetOnFailure_Lcom_squareup_okhttp_Request_Ljava_io_IOException_Handler:Square.OkHttp.ICallbackInvoker, Square.OkHttp\n" +
 			"n_onResponse:(Lcom/squareup/okhttp/Response;)V:GetOnResponse_Lcom_squareup_okhttp_Response_Handler:Square.OkHttp.ICallbackInvoker, Square.OkHttp\n" +
 			"";
-		mono.android.Runtime.register ("Square.OkHttp.Call+ActionCallback, Square.OkHttp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null", Call_ActionCallback.class, __md_methods);
+		mono.android.Runtime.register ("Square.OkHttp.Call+ActionCallback, Square.OkHttp, Version=2.7.5.0, Culture=neutral, PublicKeyToken=null", Call_ActionCallback.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class Call_ActionCallback
 	{
 		super ();
 		if (getClass () == Call_ActionCallback.class)
-			mono.android.TypeManager.Activate ("Square.OkHttp.Call+ActionCallback, Square.OkHttp, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Square.OkHttp.Call+ActionCallback, Square.OkHttp, Version=2.7.5.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 
