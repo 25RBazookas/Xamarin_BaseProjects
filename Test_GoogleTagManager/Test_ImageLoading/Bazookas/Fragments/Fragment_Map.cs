@@ -8,9 +8,9 @@
 using System;
 using Test_ImageLoading;
 using Android.Views;
-using Android.Gms.Maps;
 using System.ComponentModel;
 using Android.Support.V4.App;
+using Android.Gms.Maps;
 using Android.Gms.Maps.Model;
 
 namespace Bazookas.Fragments
@@ -62,6 +62,8 @@ namespace Bazookas.Fragments
 		public override Android.Views.View OnCreateView (Android.Views.LayoutInflater inflater, Android.Views.ViewGroup container, Android.OS.Bundle savedInstanceState)
 		{
 			View view = inflater.Inflate (Resource.Layout.Fragment_Maps, container, false);
+
+			setUpGoogleMap ();
 
 			return view;
 		}

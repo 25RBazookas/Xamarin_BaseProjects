@@ -13,8 +13,8 @@ using Android.Support.V7.App;
 
 namespace Bazookas.Activities
 {
-	[Activity (Label = "Activity_FavoriteCinema")]
-	public class Activity_Base: AppCompatActivity
+	[Activity (Label = "Activity_FavoriteCinema", Theme = "@style/Theme.AppCompat.Dark.NoActionBar")]
+	public abstract class Activity_Base: AppCompatActivity
 	{
 		#region delegates
 

@@ -1,7 +1,7 @@
 package md58fa2c851677f21513ffc54962b02a544;
 
 
-public class Activity_Base
+public abstract class Activity_Base
 	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer

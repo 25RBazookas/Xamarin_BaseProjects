@@ -18,6 +18,7 @@
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Base.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Maps.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Location.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.Android.Support.Design.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/System.Core.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/mscorlib.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/System.Runtime.Serialization.dll
