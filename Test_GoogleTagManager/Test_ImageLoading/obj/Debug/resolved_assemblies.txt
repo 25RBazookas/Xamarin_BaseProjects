@@ -14,6 +14,10 @@
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.Insights.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Square.OkIO.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Square.OkHttp.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Basement.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Base.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Maps.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/Xamarin.GooglePlayServices.Location.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/System.Core.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/mscorlib.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/assemblies/System.Runtime.Serialization.dll

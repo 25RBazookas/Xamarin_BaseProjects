@@ -16,6 +16,7 @@
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/res/values/colors.xml
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/res/layout/cell_dialog_fragment.xml
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/res/layout/fragment_dialog_card_listpicker.xml
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/res/layout/fragment_maps.xml
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/R.cs.flag
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/be.bazookas.test_imageloading-Signed.apk
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/uploadflags.txt
@@ -33,3 +34,7 @@
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.Insights.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Square.OkIO.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Square.OkHttp.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Basement.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Base.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Maps.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Location.dll
