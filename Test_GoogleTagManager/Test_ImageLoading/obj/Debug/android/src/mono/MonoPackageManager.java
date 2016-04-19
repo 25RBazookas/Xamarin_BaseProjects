@@ -92,11 +92,12 @@ class MonoPackageManager_Resources {
 		"Xamarin.Insights.dll",
 		"Square.OkIO.dll",
 		"Square.OkHttp.dll",
+		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Analytics.dll",
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
 		"Xamarin.GooglePlayServices.Location.dll",
-		"Xamarin.Android.Support.Design.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
