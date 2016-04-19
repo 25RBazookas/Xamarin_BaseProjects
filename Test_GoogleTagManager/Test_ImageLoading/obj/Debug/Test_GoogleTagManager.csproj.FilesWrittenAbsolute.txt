@@ -40,3 +40,4 @@
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Location.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.Android.Support.Design.dll
 /Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/bin/Debug/Xamarin.GooglePlayServices.Analytics.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Test_GoogleTagManager/Test_ImageLoading/obj/Debug/res/layout/fragment_googletagmanager.xml
