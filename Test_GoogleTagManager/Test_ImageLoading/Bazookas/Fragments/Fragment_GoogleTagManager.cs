@@ -18,14 +18,14 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Test_ImageLoading;
 using Android.Gms.Tagmanager;
 using Android.Gms.Common.Apis;
 using Bazookas.MyGoogleTagManager;
+using Test_ImageLoading;
 
 namespace Bazookas.Fragments
 {
-	public class Fragment_GoogleTagManager : Fragment
+	public class Fragment_GoogleTagManager : Android.Support.V4.App.Fragment
 	{
 		#region delegates
 
@@ -34,6 +34,7 @@ namespace Bazookas.Fragments
 		#region variables
 
 		static TagManagerClass _tagmanager;
+		const string googleTagManager_ID = "GTM-N9FFXD";
 
 		#endregion
 
@@ -64,10 +65,8 @@ namespace Bazookas.Fragments
 
 			_tagmanager = TagManagerClass.GetInstance (this.Activity);
 
-			PendingResult pending = _tagmanager.LoadContainerPreferNonDefault ("", Resource.Id.fragment_list);
+			PendingResult pending = _tagmanager.LoadContainerPreferNonDefault (googleTagManager_ID, Resource.Raw.gtm_analytics);
 			pending.SetResultCallback (new MyResultCallback<Container> (this.Activity), 2, Java.Util.Concurrent.TimeUnit.Seconds);
-
-//			LoadApplication (new App ());
 
 			return view;
 		}
@@ -111,7 +110,7 @@ namespace Bazookas.Fragments
 					});
 					builder.Show ();
 				} else {
-					_tagmanager.DataLayer.PushEvent ("openScreen", DataLayer.MapOf ("screenName", "testScreen"));
+					_tagmanager.DataLayer.PushEvent ("screenView", DataLayer.MapOf ("screenName", "testScreen"));
 				}
 			}
 		}

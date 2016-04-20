@@ -150,6 +150,7 @@
     <Folder Include="Bazookas\RecyclerViewHolder\" />
     <Folder Include="Bazookas\Views\" />
     <Folder Include="Bazookas\MyGoogleTagManager\" />
+    <Folder Include="Resources\raw\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
@@ -179,5 +180,8 @@
       <Version>29.0.0.1</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Resources\raw\GTM-N9FFXD" />
   </ItemGroup>
 </Project>

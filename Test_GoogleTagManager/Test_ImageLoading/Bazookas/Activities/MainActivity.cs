@@ -53,7 +53,8 @@ namespace Bazookas.Activities
 			SCREEN_WIDTH = size.X;
 
 //			Android.Support.V4.App.Fragment fragment = new Fragment_ImageLoading_Normal (SupportFragmentManager);
-			Android.Support.V4.App.Fragment fragment = new Fragment_Map ();
+//			Android.Support.V4.App.Fragment fragment = new Fragment_Map ();
+			Android.Support.V4.App.Fragment fragment = new Fragment_GoogleTagManager();
 
 			ShowFragment (Resource.Id.activity_container, fragment, "TAG");
 

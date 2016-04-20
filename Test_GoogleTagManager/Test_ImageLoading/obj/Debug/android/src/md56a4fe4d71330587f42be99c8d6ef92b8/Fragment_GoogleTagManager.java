@@ -2,7 +2,7 @@ package md56a4fe4d71330587f42be99c8d6ef92b8;
 
 
 public class Fragment_GoogleTagManager
-	extends android.app.Fragment
+	extends android.support.v4.app.Fragment
 	implements
 		mono.android.IGCUserPeer
 {

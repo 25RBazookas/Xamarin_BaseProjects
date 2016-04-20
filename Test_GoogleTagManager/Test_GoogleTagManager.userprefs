@@ -1,32 +1,11 @@
 ﻿<Properties StartupItem="Test_ImageLoading/Test_GoogleTagManager.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.04b43fc08291a61a" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs">
     <Files>
-      <File FileName="Test_ImageLoading/Bazookas/Activities/MainActivity.cs" Line="29" Column="13" />
-      <File FileName="Test_ImageLoading/Bazookas/Activities/Activity_Base.cs" Line="17" Column="56" />
-      <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/6.0.3-5/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="154" Column="21" />
+      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_Map.cs" Line="76" Column="1" />
+      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs" Line="49" Column="25" />
+      <File FileName="Test_ImageLoading/Bazookas/Activities/MainActivity.cs" Line="57" Column="76" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Test_GoogleTagManager" expanded="True">
-            <Node name="Test_GoogleTagManager" expanded="True">
-              <Node name="ComponentReferenceFolder" expanded="True" selected="True" />
-              <Node name="Packages" expanded="True" />
-              <Node name="Bazookas" expanded="True">
-                <Node name="Activities" expanded="True" />
-                <Node name="Fragments" expanded="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-                <Node name="values" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
