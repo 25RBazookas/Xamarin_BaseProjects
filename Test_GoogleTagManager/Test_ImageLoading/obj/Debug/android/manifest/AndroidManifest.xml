@@ -32,6 +32,16 @@
       </intent-filter>
     </receiver>
   </application>
+  <activity android:name="com.google.android.gms.tagmanager.PreviewActivity" android:label="Tag Activity" android:noHistory="true">
+    <!-- optional, removes the previewActivity from the activity stack. -->
+    <intent-filter>
+      <data android:scheme="tagmanager.c.com.example.tagmanager" />
+      <action android:name="android.intent.action.VIEW" />
+      <category android:name="android.intent.category.DEFAULT" />
+      <category android:name="android.intent.category.BROWSABLE" />
+    </intent-filter>
+  </activity>
+  <!--PERSISSIONS-->
   <!-- Google Maps for Android v2 requires OpenGL ES v2 -->
   <!-- We need to be able to download map tiles and access Google Play Services-->
   <!-- Allow the application to access Google web-based services. -->

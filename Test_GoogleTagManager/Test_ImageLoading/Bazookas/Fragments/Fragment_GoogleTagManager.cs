@@ -33,9 +33,7 @@ namespace Bazookas.Fragments
 
 		#region variables
 
-		static TagManagerClass _tagmanager;
 		const string googleTagManager_ID = "GTM-N9FFXD";
-
 		#endregion
 
 		#region properties
@@ -63,10 +61,15 @@ namespace Bazookas.Fragments
 		{
 			View view = inflater.Inflate (Resource.Layout.Fragment_GoogleTagManager, container, false);
 
-			_tagmanager = TagManagerClass.GetInstance (this.Activity);
+			TagManagerClass _tagmanager = TagManagerClass.GetInstance (this.Activity);
 
 			PendingResult pending = _tagmanager.LoadContainerPreferNonDefault (googleTagManager_ID, Resource.Raw.gtm_analytics);
 			pending.SetResultCallback (new MyResultCallback<Container> (this.Activity), 2, Java.Util.Concurrent.TimeUnit.Seconds);
+
+
+			#if DEBUG
+			_tagmanager.SetVerboseLoggingEnabled(true);
+			#endif
 
 			return view;
 		}
@@ -83,6 +86,8 @@ namespace Bazookas.Fragments
 
 		class MyResultCallback<IContainerHolder>: Java.Lang.Object, IResultCallback
 		{
+			Dialog  dialog =null;
+
 			public Activity MyActivity {
 				get;
 				private set;
@@ -99,6 +104,7 @@ namespace Bazookas.Fragments
 
 				//TODO - if you need to keep a reference to the containerHolder to retreive configuration, unmark next line
 				ContainerHolderSingleton.SetContainerHolder (containerHolder);
+				Container container = containerHolder.Container;
 
 				if (!containerHolder.Status.IsSuccess) {
 					AlertDialog.Builder builder = new AlertDialog.Builder (MyActivity);
@@ -109,9 +115,19 @@ namespace Bazookas.Fragments
 						MyActivity.Finish ();
 					});
 					builder.Show ();
-				} else {
-					_tagmanager.DataLayer.PushEvent ("screenView", DataLayer.MapOf ("screenName", "testScreen"));
+				} else{
+						
+					TagManagerClass.GetInstance(MyActivity).DataLayer.PushEvent ("screenView", DataLayer.MapOf ("screenName", "testScreen"));
+					AlertDialog.Builder builder = new AlertDialog.Builder (MyActivity);
+					builder.SetTitle ("Success");
+					builder.SetMessage ("Successfull sended event screenView");
+					builder.SetPositiveButton ("OK", closeDialog);
+					dialog = builder.Show();
 				}
+			}
+
+			void closeDialog(object sender, DialogClickEventArgs args){
+				this.dialog.Hide ();
 			}
 		}
 	}
