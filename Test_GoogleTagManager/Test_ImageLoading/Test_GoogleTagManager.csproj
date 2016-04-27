@@ -116,6 +116,8 @@
     <Compile Include="Bazookas\Fragments\Fragment_Map.cs" />
     <Compile Include="Bazookas\Fragments\Fragment_GoogleTagManager.cs" />
     <Compile Include="Bazookas\MyGoogleTagManager\ContainerHolderSingleton.cs" />
+    <Compile Include="Bazookas\MyGoogleTagManager\MyGTMResultCallback.cs" />
+    <Compile Include="Bazookas\Constants.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

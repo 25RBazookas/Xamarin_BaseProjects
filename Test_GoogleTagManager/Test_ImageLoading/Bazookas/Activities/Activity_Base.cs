@@ -10,6 +10,10 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 using Android.Support.V7.App;
+using Android.Gms.Tagmanager;
+using Android.Gms.Common.Apis;
+using Bazookas.MyGoogleTagManager;
+using Test_ImageLoading;
 
 namespace Bazookas.Activities
 {
@@ -30,6 +34,23 @@ namespace Bazookas.Activities
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
+
+			#region GTM
+			TagManagerClass _tagmanager = TagManagerClass.GetInstance (Application.Context);
+
+			PendingResult pending = _tagmanager.LoadContainerPreferNonDefault (Constants.googleTagManager_ID, Resource.Raw.gtm_analytics);
+			pending.SetResultCallback (new MyGTMResultCallback<Container> (Application.Context)
+				, 2, Java.Util.Concurrent.TimeUnit.Seconds);
+
+
+			#if DEBUG
+			_tagmanager.SetVerboseLoggingEnabled(true);
+			#endif
+
+			TagManagerClass.GetInstance (this.ApplicationContext)
+				.DataLayer.PushEvent ("screenView", DataLayer.MapOf ("screenName", "activityBaseScreen"));
+			
+			#endregion
 
 		}
 		#endregion
@@ -61,6 +82,8 @@ namespace Bazookas.Activities
 		#region overided methods
 
 		#region viewlifecycle
+
+
 		protected override void OnResume ()
 		{
 			base.OnResume ();

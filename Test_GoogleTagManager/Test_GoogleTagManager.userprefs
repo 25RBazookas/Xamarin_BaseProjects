@@ -1,32 +1,11 @@
 ﻿<Properties StartupItem="Test_ImageLoading/Test_GoogleTagManager.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.04b43fc08291a61a" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.5653c64e" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs">
     <Files>
       <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_Map.cs" Line="1" Column="1" />
-      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs" Line="120" Column="44" />
+      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs" Line="119" Column="7" />
       <File FileName="Test_ImageLoading/Bazookas/Activities/MainActivity.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Test_GoogleTagManager" expanded="True">
-            <Node name="Test_GoogleTagManager" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Bazookas" expanded="True">
-                <Node name="Fragments" expanded="True" />
-                <Node name="MyGoogleTagManager" expanded="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="raw" expanded="True">
-                  <Node name="GTM-N9FFXD" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
