@@ -24,10 +24,6 @@ namespace Bazookas.RecyclerViewCells
 
 		#region properties
 
-		public View_Button_Overlay_Oval Done_Button {
-			get;
-			set;
-		}
 
 		public TextView TxtChoice {
 			get;
