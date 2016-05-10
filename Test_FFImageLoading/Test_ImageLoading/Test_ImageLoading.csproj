@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Test_ImageLoading</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>Test_ImageLoading</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <XamarinInsightsApiKey>99d45fcee1d007d4376a16b47c462c0a504f35d2</XamarinInsightsApiKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Insights">
+      <HintPath>..\packages\Xamarin.Insights.1.10.6\lib\MonoAndroid10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.GridLayout">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.GridLayout.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.GridLayout.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Cheeseknife">
+      <HintPath>..\Components\cheeseknife-1.0\lib\android\Cheeseknife.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.OkIO">
+      <HintPath>..\packages\Square.OkIO.1.5.0.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.OkHttp">
+      <HintPath>..\packages\Square.OkHttp.2.4.0.1\lib\MonoAndroid\Square.OkHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.Picasso">
+      <HintPath>..\packages\Square.Picasso.2.5.2.1\lib\MonoAndroid\Square.Picasso.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="UniversalImageLoader">
+      <HintPath>..\Components\UniversalImageLoader-1.9.4.1\lib\android\UniversalImageLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Droid">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.0.7.1\lib\MonoAndroid10\FFImageLoading.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.0.7.1\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Bazookas\Activities\MainActivity.cs" />
+    <Compile Include="Bazookas\Activities\Activity_Base.cs" />
+    <Compile Include="Bazookas\Fragments\Fragment_ImageLoading_Normal.cs" />
+    <Compile Include="Bazookas\VO\PhotoAlbumVO.cs" />
+    <Compile Include="Bazookas\Adapter_Images.cs" />
+    <Compile Include="Bazookas\RecyclerViewCells\RecyclerViewCell_Image.cs" />
+    <Compile Include="Bazookas\RecyclerViewHolder\RecyclerViewHolder_Image.cs" />
+    <Compile Include="Bazookas\RecyclerViewCells\RecyclerViewCell_Image_Picasso.cs" />
+    <Compile Include="Bazookas\Fragments\Fragment_Dialog.cs" />
+    <Compile Include="Bazookas\RecyclerViewCells\Cell_Choice.cs" />
+    <Compile Include="Bazookas\RecyclerViewCells\RecyclerViewCell_Image_UniversalImageLoader.cs" />
+    <Compile Include="Bazookas\App.cs" />
+    <Compile Include="Bazookas\RecyclerViewCells\RecyclerViewCell_Image_FFImageLoading.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\Activity_Container.axml" />
+    <AndroidResource Include="Resources\layout\Fragment_ImageLoading_Normal.axml" />
+    <AndroidResource Include="Resources\layout\Cell_RecyclerView_ImageLoading.axml" />
+    <AndroidResource Include="Resources\values\themes.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\layout\Cell_Dialog_Fragment.axml" />
+    <AndroidResource Include="Resources\layout\Fragment_Dialog_Card_ListPicker.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Bazookas\" />
+    <Folder Include="Bazookas\Fragments\" />
+    <Folder Include="Bazookas\Activities\" />
+    <Folder Include="Bazookas\VO\" />
+    <Folder Include="Bazookas\RecyclerViewCells\" />
+    <Folder Include="Bazookas\RecyclerViewHolder\" />
+    <Folder Include="Bazookas\Views\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Insights.1.10.6\build\MonoAndroid10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.10.6\build\MonoAndroid10\Xamarin.Insights.targets')" />
+  <ItemGroup>
+    <XamarinComponentReference Include="cheeseknife">
+      <Version>1.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="square.picasso">
+      <Version>2.5.2.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamandroidsupportv7cardview">
+      <Version>22.2.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="UniversalImageLoader">
+      <Version>1.9.4.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Test_ImageLoading/Test_ImageLoading.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.5653c64e" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_ImageLoading/Bazookas/RecyclerViewCells/RecyclerViewCell_Image_FFImageLoading.cs">
+    <Files>
+      <File FileName="Test_ImageLoading/Bazookas/RecyclerViewCells/RecyclerViewCell_Image_UniversalImageLoader.cs" Line="33" Column="1" />
+      <File FileName="Test_ImageLoading/Bazookas/RecyclerViewCells/RecyclerViewCell_Image_FFImageLoading.cs" Line="22" Column="29" />
+      <File FileName="Test_ImageLoading/Bazookas/RecyclerViewHolder/RecyclerViewHolder_Image.cs" Line="18" Column="39" />
+      <File FileName="Test_ImageLoading/Bazookas/Adapter_Images.cs" Line="81" Column="83" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/robinbruneel/Projects/Test_ImageLoading/Test_ImageLoading/MainActivity.cs" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Test__ImageLoading AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

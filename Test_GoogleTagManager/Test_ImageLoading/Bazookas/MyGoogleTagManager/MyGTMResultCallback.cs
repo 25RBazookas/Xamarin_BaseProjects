@@ -34,7 +34,7 @@ namespace Bazookas.MyGoogleTagManager
 
 			//TODO - if you need to keep a reference to the containerHolder to retreive configuration, unmark next line
 			ContainerHolderSingleton.SetContainerHolder (containerHolder);
-			Container container = containerHolder.Container;
+//			Container container = containerHolder.Container;
 
 			if (!containerHolder.Status.IsSuccess) {
 				Console.WriteLine (String.Format ("LOG: {0}", "FAILED TO SET GTM"));

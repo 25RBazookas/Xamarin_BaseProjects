@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Test_ImageLoading/Test_GoogleTagManager.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.5653c64e" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat) API 19" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_ImageLoading/Bazookas/Activities/Activity_Base.cs">
     <Files>
-      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_Map.cs" Line="1" Column="1" />
-      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs" Line="119" Column="7" />
-      <File FileName="Test_ImageLoading/Bazookas/Activities/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Test_ImageLoading/Bazookas/MyGoogleTagManager/ContainerHolderSingleton.cs" Line="1" Column="1" />
+      <File FileName="Test_ImageLoading/Bazookas/Activities/Activity_Base.cs" Line="51" Column="38" />
+      <File FileName="Test_ImageLoading/Bazookas/Activities/MainActivity.cs" Line="83" Column="13" />
+      <File FileName="Test_ImageLoading/Bazookas/Fragments/Fragment_GoogleTagManager.cs" Line="65" Column="94" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
