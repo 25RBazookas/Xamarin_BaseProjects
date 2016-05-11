@@ -108,6 +108,7 @@
     <Compile Include="Bazookas\Views\DispatchAdapter.cs" />
     <Compile Include="Bazookas\MyRecyclerView\RecyclerView_Base.cs" />
     <Compile Include="Bazookas\MyRecyclerView\Observer_Adapter_DataObserver_Base.cs" />
+    <Compile Include="Bazookas\Views\PicassoCallBack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

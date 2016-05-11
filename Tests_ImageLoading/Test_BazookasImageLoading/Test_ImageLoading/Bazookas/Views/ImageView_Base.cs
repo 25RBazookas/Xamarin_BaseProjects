@@ -9,15 +9,14 @@ using System;
 using Android.Widget;
 using Bazookas.BL.Interfaces;
 using Square.Picasso;
-using Bazookas.Kinepolis.BL.Controllers;
 using Java.IO;
 using Android.Graphics.Drawables;
 using Bazookas.Utils;
 using Android.Graphics;
 using System.Threading.Tasks;
-using Bazookas.Kinepolis.PicassoExtension;
 using Bazookas.Kinepolis.BL.Interfaces;
 using Android.Views;
+using Bazookas.Kinepolis.PicassoExtension;
 
 namespace Bazookas.Kinepolis.Views.ImageViews
 {

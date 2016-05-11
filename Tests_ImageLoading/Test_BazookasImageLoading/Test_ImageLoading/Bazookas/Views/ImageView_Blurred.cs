@@ -7,11 +7,9 @@
  // Copyright (c) 2015 Robin Bruneel
 using System;
 using System.Text;
-using Bazookas.Kinepolis.BL.Controllers;
 using Square.Picasso;
 using Android.Widget;
 using Bazookas.Utils;
-using Bazookas.Kinepolis.PicassoExtension.PicassoTransformations;
 using Android.Graphics;
 using System.Threading.Tasks;
 using Java.IO;
