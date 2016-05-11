@@ -1,0 +1,3 @@
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Tests_ImageLoading/Test_BazookasImageLoading/Test_ImageLoading/obj/Release/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Tests_ImageLoading/Test_BazookasImageLoading/Test_ImageLoading/obj/Release/Test_ImageLoading.dll
+/Users/robinbruneel/Documents/Projects_Bazookas/Xamarin_BaseProjects/Tests_ImageLoading/Test_BazookasImageLoading/Test_ImageLoading/obj/Release/Test_ImageLoading.dll.mdb
