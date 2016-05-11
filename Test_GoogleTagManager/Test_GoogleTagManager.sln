@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Test_GoogleTagManager", "Test_ImageLoading\Test_GoogleTagManager.csproj", "{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_GoogleTagManager", "Test_ImageLoading\Test_GoogleTagManager.csproj", "{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

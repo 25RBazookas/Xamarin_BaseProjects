@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Maps", "Test_ImageLoading\Test_Maps.csproj", "{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C2FB28-08C0-49C1-8F0E-AB0DA4D1B03D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
