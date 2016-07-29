@@ -1,0 +1,2 @@
+android.app.Application
+be.bazookas.test_imageloading

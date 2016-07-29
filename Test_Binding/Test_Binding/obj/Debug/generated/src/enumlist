@@ -1,7 +1,0 @@
-com.bumptech.glide.MemoryCategory:Com.Bumptech.Glide:MemoryCategory
-com.bumptech.glide.Priority:Com.Bumptech.Glide:Priority
-com.bumptech.glide.load.DecodeFormat:Com.Bumptech.Glide.Load:DecodeFormat
-com.bumptech.glide.load.engine.DiskCacheStrategy:Com.Bumptech.Glide.Load.Engine:DiskCacheStrategy
-com.bumptech.glide.load.engine.executor.FifoPriorityThreadPoolExecutor$UncaughtThrowableStrategy:Com.Bumptech.Glide.Load.Engine.Executor:FifoPriorityThreadPoolExecutor.UncaughtThrowableStrategy
-com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$ImageType:Com.Bumptech.Glide.Load.Resource.Bitmap:ImageHeaderParser.ImageType
-com.bumptech.glide.request.GenericRequest$Status:Com.Bumptech.Glide.Request:GenericRequest.Status
