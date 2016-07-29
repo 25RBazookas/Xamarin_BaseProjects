@@ -39,7 +39,7 @@ namespace Bazookas.Fragments
 		ISurfaceHolder vidHolder;
 		[InjectView(Resource.Id.videoSurface)]
 		SurfaceView vidSurface;
-		string vidAddress = "http://www.w3schools.com/html/mov_bbb.mp4";
+		string vidAddress = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
 
 		View_VideoController controller;
 
