@@ -1,6 +1,7 @@
 ﻿using System;
 using Android.Content;
 using Android.OS;
+using Android.Support.V7.Widget;
 using Android.Text.Format;
 using Android.Util;
 using Android.Views;
@@ -525,9 +526,9 @@ namespace Test_ImageLoading
 			mProgress = (ProgressBar)v.FindViewById(Resource.Id.mediacontroller_progress);
 			if (mProgress != null)
 			{
-				if (mProgress.GetType() == typeof(SeekBar))
+				if (mProgress.GetType() == typeof(AppCompatSeekBar))
 				{
-					SeekBar seeker = (SeekBar)mProgress;
+					AppCompatSeekBar seeker = (AppCompatSeekBar)mProgress;
 					seeker.SetOnSeekBarChangeListener(new MyOnSeekBarChangeListener(this));
 				}
 				mProgress.Max = 1000;

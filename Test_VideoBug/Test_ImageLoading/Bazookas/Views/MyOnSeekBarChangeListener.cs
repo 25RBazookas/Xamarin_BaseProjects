@@ -24,7 +24,7 @@ namespace Test_ImageLoading
 
 		public void OnStartTrackingTouch(SeekBar bar)
 		{
-			videoController.Show(3600000);
+			videoController.Show(View_VideoController.sDefaultTimeout);
 
 			videoController.mDragging = true;
 
