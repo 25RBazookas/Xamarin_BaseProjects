@@ -2,7 +2,7 @@ package md5520a8c1b94c2387410e695a53b05768d;
 
 
 public class View_VideoController
-	extends android.widget.FrameLayout
+	extends android.widget.LinearLayout
 	implements
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener

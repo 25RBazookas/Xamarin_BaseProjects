@@ -11,10 +11,11 @@ using Test_ImageLoading;
 
 namespace Test_ImageLoading
 {
-	public class View_VideoController : FrameLayout, View.IOnClickListener
+	public class View_VideoController : LinearLayout, View.IOnClickListener
 	{
 		#region variables
 		static string TAG = "VideoControllerView";
+		const int FORWARD_BACKWARD_PLAYTIME = 5000;
 
 		public IMediaPlayerControl mPlayer;
 		Context mContext;
@@ -24,7 +25,7 @@ namespace Test_ImageLoading
 		public TextView mEndTime, mCurrentTime;
 		public bool mShowing;
 		public bool mDragging;
-		public const int sDefaultTimeout = 3000;
+		public const int sDefaultTimeout = 300000;
 		public const int FADE_OUT = 1;
 		public const int SHOW_PROGRESS = 2;
 		bool mUseFastForward;
@@ -64,7 +65,6 @@ namespace Test_ImageLoading
 		#endregion
 
 		#region public methods
-
 		#region View.IOnClickListener
 		public void OnClick(View v)
 		{
@@ -88,7 +88,7 @@ namespace Test_ImageLoading
 					return;
 				}
 				int pos = mPlayer.getCurrentPosition();
-				pos += 15000; // milliseconds
+				pos += 5000; // milliseconds
 				mPlayer.seekTo(pos);
 				SetProgress();
 				Show(sDefaultTimeout);
@@ -528,7 +528,7 @@ namespace Test_ImageLoading
 				if (mProgress.GetType() == typeof(SeekBar))
 				{
 					SeekBar seeker = (SeekBar)mProgress;
-					seeker.SetOnSeekBarChangeListener(new MyOnSeekBarChangeListener());
+					seeker.SetOnSeekBarChangeListener(new MyOnSeekBarChangeListener(this));
 				}
 				mProgress.Max = 1000;
 			}
@@ -537,6 +537,12 @@ namespace Test_ImageLoading
 			mCurrentTime = (TextView)v.FindViewById(Resource.Id.time_current);
 			mFormatBuilder = new StringBuilder();
 			mFormatter = new Java.Util.Formatter(mFormatBuilder, Locale.Default);
+
+			#region OnClickListeners
+			mPauseButton.SetOnClickListener(this);
+			mFfwdButton.SetOnClickListener(this);
+			mRewButton.SetOnClickListener(this);
+			#endregion
 
 			installPrevNextListeners();
 		}

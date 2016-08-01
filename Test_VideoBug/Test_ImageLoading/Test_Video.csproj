@@ -101,7 +101,6 @@
     <Compile Include="Bazookas\RecyclerViewCells\Cell_Choice.cs" />
     <Compile Include="Bazookas\Fragments\Fragment_Maps.cs" />
     <Compile Include="Bazookas\Fragments\Fragment_Video_MediaCenter.cs" />
-    <Compile Include="Bazookas\Fragments\Fragment_Video_MediaController.cs" />
     <Compile Include="Bazookas\Views\View_VideoController.cs" />
     <Compile Include="Bazookas\Interface\IMediaPlayerControl.cs" />
     <Compile Include="Bazookas\Views\MessageHandler.cs" />
