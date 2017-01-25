@@ -56,6 +56,7 @@ namespace Bazookas.Fragments
 
 		#region public methods
 
+
 		#region IMediaPlayerControl
 
 		public void start()
@@ -120,6 +121,8 @@ namespace Bazookas.Fragments
 		#endregion
 
 		#region overided methods
+
+	
 
 		#region viewlifecycle
 
@@ -188,7 +191,7 @@ namespace Bazookas.Fragments
 		public void OnPrepared(MediaPlayer mp)
 		{
 			controller.setMediaPlayer(this);
-			controller.setAnchorView((FrameLayout) this.View.FindViewById<FrameLayout>(Resource.Id.videoSurfaceContainer));
+			controller.setAnchorView( this.View.FindViewById<RelativeLayout>(Resource.Id.videoSurfaceContainer));
 			mediaPlayer.Start();
 		}
 
@@ -204,6 +207,7 @@ namespace Bazookas.Fragments
 		{
 			controller.Show();
 		}
+
 
 		#endregion
 	}

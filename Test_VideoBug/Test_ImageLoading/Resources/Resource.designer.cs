@@ -1873,8 +1873,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c004f
 			public const int expanded_menu = 2131492943;
 			
-			// aapt resource value: 0x7f0c0083
-			public const int ffwd = 2131492995;
+			// aapt resource value: 0x7f0c0085
+			public const int ffwd = 2131492997;
 			
 			// aapt resource value: 0x7f0c0031
 			public const int fill = 2131492913;
@@ -1936,8 +1936,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0075
 			public const int media_actions = 2131492981;
 			
-			// aapt resource value: 0x7f0c0086
-			public const int mediacontroller_progress = 2131492998;
+			// aapt resource value: 0x7f0c0081
+			public const int mediacontroller_progress = 2131492993;
 			
 			// aapt resource value: 0x7f0c0020
 			public const int middle = 2131492896;
@@ -1948,8 +1948,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0024
 			public const int never = 2131492900;
 			
-			// aapt resource value: 0x7f0c0084
-			public const int next = 2131492996;
+			// aapt resource value: 0x7f0c0086
+			public const int next = 2131492998;
 			
 			// aapt resource value: 0x7f0c000b
 			public const int none = 2131492875;
@@ -1960,11 +1960,11 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0044
 			public const int parentPanel = 2131492932;
 			
-			// aapt resource value: 0x7f0c0082
-			public const int pause = 2131492994;
+			// aapt resource value: 0x7f0c0084
+			public const int pause = 2131492996;
 			
-			// aapt resource value: 0x7f0c0080
-			public const int prev = 2131492992;
+			// aapt resource value: 0x7f0c0082
+			public const int prev = 2131492994;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int progress_circular = 2131492869;
@@ -1975,8 +1975,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0052
 			public const int radio = 2131492946;
 			
-			// aapt resource value: 0x7f0c0081
-			public const int rew = 2131492993;
+			// aapt resource value: 0x7f0c0083
+			public const int rew = 2131492995;
 			
 			// aapt resource value: 0x7f0c0035
 			public const int right = 2131492917;
@@ -2086,8 +2086,8 @@ namespace Test_ImageLoading
 			// aapt resource value: 0x7f0c0078
 			public const int time = 2131492984;
 			
-			// aapt resource value: 0x7f0c0085
-			public const int time_current = 2131492997;
+			// aapt resource value: 0x7f0c0080
+			public const int time_current = 2131492992;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int title = 2131492929;

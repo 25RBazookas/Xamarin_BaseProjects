@@ -26,6 +26,13 @@ public class MyOnSeekBarChangeListener
 			mono.android.TypeManager.Activate ("Test_ImageLoading.MyOnSeekBarChangeListener, Test_ImageLoading, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
+	public MyOnSeekBarChangeListener (md5520a8c1b94c2387410e695a53b05768d.View_VideoController p0) throws java.lang.Throwable
+	{
+		super ();
+		if (getClass () == MyOnSeekBarChangeListener.class)
+			mono.android.TypeManager.Activate ("Test_ImageLoading.MyOnSeekBarChangeListener, Test_ImageLoading, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "Test_ImageLoading.View_VideoController, Test_ImageLoading, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", this, new java.lang.Object[] { p0 });
+	}
+
 
 	public void onProgressChanged (android.widget.SeekBar p0, int p1, boolean p2)
 	{
